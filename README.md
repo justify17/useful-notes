@@ -1,5 +1,9 @@
 # useful-notes
 
 ## Java
-1. InputStream to ByteArrayOutputStream
-    [Solution1.java](/java/Solution1.java)
+### Common
+1. Преобразования InputStream в ByteArrayOutputStream [Solution.java](/java/common/Solution1.java)
+### Json
+1. Валидация JSON по JSON схеме [Solution.java](/java/json/Solution1.java)  
+Используемая библиотека: https://github.com/networknt/json-schema-validator
+   

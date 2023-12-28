@@ -1,0 +1,17 @@
+{
+  "$id": "https://justify.net/data.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "JSON Schema",
+  "title": "Json Schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name"
+    }
+  },
+  "required": [
+    "name"
+  ],
+  "additionalProperties": false
+}
