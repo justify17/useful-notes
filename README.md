@@ -10,7 +10,7 @@
 ### Commands for transport
 ![git-transport](https://github.com/justify17/useful-notes/assets/94614929/75854402-6051-480f-a863-6a0eb2b39c0c)
 ### Подключение локального проекта к удаленному GIT репозиторию
-#### Кейс 1: Удаленный GIT репозиторий был инициализирован(например, содержит README.md и т.п.):
+#### Кейс 1: Удаленный GIT репозиторий был инициализирован(содержит README.md и т.п.):
 git init  
 git add .  
 git commit -m 'Init'  
