@@ -10,10 +10,16 @@
 ### Commands for transport
 ![git-transport](https://github.com/justify17/useful-notes/assets/94614929/75854402-6051-480f-a863-6a0eb2b39c0c)
 ### Подключение локального проекта к удаленному GIT репозиторию
+#### Кейс 1: Удаленный GIT репозиторий был инициализирован(например, содержит README.md и т.п.):
 git init  
 git add .  
 git commit -m 'Init'  
 git remote add origin https://github.com/justify17/useful-notes; Где: origin - псевдоним удаленного репозитория(может быть любым другим); https://github.com/justify17/useful-notes - URL удаленного репозитория  
-git pull origin main --allow-unrelated-histories   
-git branch --set-upstream-to origin/main master    
-git push origin HEAD:main
+git pull origin main --allow-unrelated-histories
+##### Удаленная ветка и локальная имеют одинаковые имена:
+git branch --set-upstream-to origin/main main    
+git push
+##### Удаленная ветка и локальная имеют разные имена:
+git branch --set-upstream-to origin/main master  
+git config --local push.default upstream  
+git push
