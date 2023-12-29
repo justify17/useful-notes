@@ -14,7 +14,7 @@
 git init  
 git add .  
 git commit -m 'Init'  
-git remote add origin https://github.com/justify17/useful-notes; Где: origin - псевдоним удаленного репозитория(может быть любым другим); https://github.com/justify17/useful-notes - URL удаленного репозитория  
+git remote add origin https://github.com/justify17/useful-notes; Где: origin - псевдоним удаленного репозитория; https://github.com/justify17/useful-notes - URL удаленного репозитория  
 git pull origin main --allow-unrelated-histories
 ##### Удаленная и локальная ветки имеют одинаковые имена:
 git branch --set-upstream-to origin/main main    
@@ -27,5 +27,5 @@ git push
 git init  
 git add .  
 git commit -m 'Init'  
-git remote add origin https://github.com/justify17/useful-notes; Где: origin - псевдоним удаленного репозитория(может быть любым другим); https://github.com/justify17/useful-notes - URL удаленного репозитория  
+git remote add origin https://github.com/justify17/useful-notes; Где: origin - псевдоним удаленного репозитория; https://github.com/justify17/useful-notes - URL удаленного репозитория  
 git push -u origin master
