@@ -32,3 +32,10 @@ git add .
 git commit -m 'Init'  
 git remote add origin https://github.com/justify17/useful-notes; Где: origin - псевдоним удаленного репозитория; https://github.com/justify17/useful-notes - URL удаленного репозитория  
 git push -u origin master
+### Проблема после git commit без параметра -m  
+Открывается текстовый редактор Vim и нам нужно ввести комментарий к коммиту:  
+Нажимаем i  
+Вводим комментарий  
+Нажимаем Ctrl + o  
+Вводим :wq  
+Нажимаем Enter
