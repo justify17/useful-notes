@@ -10,6 +10,8 @@
 ### Полезные ссылки:  
 Различия между merge и rebase:  
 https://medium.com/nuances-of-programming/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B5%D0%B5%D1%88%D1%8C-merge-%D0%BE%D1%81%D0%B2%D0%BE%D0%B9-%D0%B8-rebase-412e36bddce2
+Основы GIT:  
+https://git-scm.com/book/ru/v2
 ### Commands for transport
 ![git-transport](https://github.com/justify17/useful-notes/assets/94614929/75854402-6051-480f-a863-6a0eb2b39c0c)
 ### Подключение локального проекта к удаленному GIT репозиторию
