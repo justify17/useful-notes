@@ -22,10 +22,10 @@ git commit -m 'Init'
 git remote add origin https://github.com/justify17/useful-notes; Где: origin - псевдоним удаленного репозитория; https://github.com/justify17/useful-notes - URL удаленного репозитория  
 git pull origin main --allow-unrelated-histories
 ##### Удаленная и локальная ветки имеют одинаковые имена:
-git branch --set-upstream-to origin/main main    
+git branch --set-upstream-to=origin/main main    
 git push
 ##### Удаленная и локальная ветки имеют разные имена:
-git branch --set-upstream-to origin/main master  
+git branch --set-upstream-to=origin/main master  
 git config --local push.default upstream  
 git push
 #### Кейс 2: Удаленный GIT репозиторий не был инициализирован(является пустым):
