@@ -41,3 +41,9 @@ git push -u origin master
 Нажимаем Ctrl + o или Ctrl + c  
 Вводим :wq  
 Нажимаем Enter
+
+## Database
+### PostgreSQL Изоляции транзакций
+#### Особенности Read Committed
+##### 1. ON CONFLICT DO UPDATE
+
