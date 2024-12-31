@@ -47,7 +47,10 @@ git push -u origin master
 #### Особенности Read Committed
 1. SELECT
 ![image](https://github.com/user-attachments/assets/a1d09d0f-ba43-402f-a7b4-821465266fb8)
+
 2. UPDATE
+   
 ![image](https://github.com/user-attachments/assets/8502d50f-5624-4c91-a318-178c6ff12d0d)
-UPDATE у Bob будет ждать завершения транзакции Alice.
+
+UPDATE Боба должно дождаться завершения транзакции Алисы (подтверждения/отката), чтобы продолжить работу.
 
