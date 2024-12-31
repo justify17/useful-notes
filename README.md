@@ -45,5 +45,7 @@ git push -u origin master
 ## Database
 ### PostgreSQL Изоляции транзакций
 #### Особенности Read Committed
-##### 1. ON CONFLICT DO UPDATE
+![image](https://github.com/user-attachments/assets/8502d50f-5624-4c91-a318-178c6ff12d0d)
+![image](https://github.com/user-attachments/assets/a1d09d0f-ba43-402f-a7b4-821465266fb8)
+
 
