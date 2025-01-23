@@ -54,3 +54,5 @@ git push -u origin master
 
 UPDATE Боба должно дождаться завершения транзакции Алисы (подтверждения/отката), чтобы продолжить работу.
 
+### PostgreSQL Цикл по массиву
+Пример [for_each_array.sql](/java/for_each_array.sql)  
